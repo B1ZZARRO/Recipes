@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Recipes</RootNamespace>
+    <AssemblyName>Recipes</AssemblyName>
+    <!-- Позволяет компилировать проект также на не-Windows ОС (на Windows ничего не меняет). -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Работа с .docx заказ-нарядов -->
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.1.1" />
+    <!-- Экспорт/импорт рецептов в Excel (.xlsx) -->
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Шаблон заказ-наряда встраивается в exe; файл рядом с exe имеет приоритет -->
+    <EmbeddedResource Include="ЗАКАЗ_НАРЯД_ФОРМА.docx" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipes>
+  <Recipe Name="Блок пневматический">
+    <Components>
+      <Component Label="s1" Name="Ячейка КНЯ85" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="Кабель JST 1.25 6 pin" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="Кембрик диаметром 1.2 мм" Qty="8" Unit="мм" />
+      <Component Label="s4" Name="Компрессор CJP13-F03A1" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="Двусторонный скотч 0.5 мм" Qty="100" Unit="мм" />
+      <Component Label="s6" Name="Клапан KSV15C" Qty="1" Unit="шт" />
+      <Component Label="s7" Name="Клапан CJV08-A03A7" Qty="1" Unit="шт" />
+      <Component Label="s8" Name="Стойка" Qty="1" Unit="шт" />
+      <Component Label="s9" Name="Ресивер" Qty="1" Unit="шт" />
+      <Component Label="s10" Name="Лицевая панель для МД" Qty="1" Unit="шт" />
+      <Component Label="s11" Name="Дисплей для КНЯ85" Qty="1" Unit="шт" />
+      <Component Label="s12" Name="Припой" Qty="0.5" Unit="г" />
+      <Component Label="s13" Name="Флюс" Qty="0.1" Unit="г" />
+      <Component Label="s14" Name="Герметик" Qty="5" Unit="г" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Припаять s4, s6 и s7 к s2" TimeMinutes="20" />
+      <Operation Label="o2" Description="Вставить 6 контактный разъем в ответный разъем на плате" />
+      <Operation Label="o3" Description="Закрепить s4 на плате" />
+      <Operation Label="o4" Description="Нанести  s14 на датчик давления и на s6 и s7" />
+      <Operation Label="o5" Description="Установить s8 на плату" />
+      <Operation Label="o6" Description="Одеть s9 на датчик давления и соеденить с s4, s6 и s7" />
+      <Operation Label="o7" Description="Втавить соеденить штуцер лицевой панели с s9" />
+      <Operation Label="o8" Description="Подключить 4&#xA;контактный разъем от лицевой панели к ответной части рядом с кардридером" />
+      <Operation Label="o9" Description="Закрепить s11 двухсторнним скотчем на микросхему" />
+      <Operation Label="o10" Description="Проверка блока пневматического: тест пневмосистемы, АЦП датчиков давления" TimeMinutes="40" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="Кнопка">
+    <Components>
+      <Component Label="s1" Name="пластик" Qty="7" Unit="г" />
+    </Components>
+    <Operations />
+  </Recipe>
+  <Recipe Name="КНЯ85">
+    <Components>
+      <Component Label="s1" Name="Ячейка ВТ1" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="Плата печатная" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="Акселерометр ADXL337BCPZ" Qty="1" Unit="шт" />
+      <Component Label="s4" Name="Пьезоизлучатель PKMCS0909E4000-R1" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="Микрофон EM-4015P" Qty="1" Unit="шт" />
+      <Component Label="s6" Name="Датчик давления MPXM2053GS" Qty="2" Unit="шт" />
+      <Component Label="s7" Name="12 МГц SMD3225" Qty="3" Unit="шт" />
+      <Component Label="s8" Name="32,768 кГц SMD3215" Qty="1" Unit="шт" />
+      <Component Label="s9" Name="10 пФ ±5% NPO 0603" Qty="8" Unit="шт" />
+      <Component Label="s10" Name="2200 пФ ±5% NPO 0603" Qty="7" Unit="шт" />
+      <Component Label="s11" Name="0,015 мкФ ±10% X7R 0603" Qty="3" Unit="шт" />
+      <Component Label="s12" Name="0,1 мкФ ±10% X7R 0603" Qty="40" Unit="шт" />
+      <Component Label="s13" Name="10 мкФ ±10% X5R 0603" Qty="30" Unit="шт" />
+      <Component Label="s14" Name="100 мкФ 6,3В корпус &quot;В&quot;" Qty="7" Unit="шт" />
+      <Component Label="s15" Name="0,22 Ф 3,3В DSK-3R3H224U-HL" Qty="1" Unit="шт" />
+      <Component Label="s16" Name="Микросхема AD8293G160ARJ" Qty="2" Unit="шт" />
+      <Component Label="s17" Name="Микросхема AD8607ARM" Qty="1" Unit="шт" />
+      <Component Label="s18" Name="Микросхема MAX6071BAUT25+" Qty="1" Unit="шт" />
+      <Component Label="s19" Name="Микросхема MAX1674EUA" Qty="1" Unit="шт" />
+      <Component Label="s20" Name="Микросхема NCP1423DMR2" Qty="1" Unit="шт" />
+      <Component Label="s21" Name="Микросхема TPS61041DBVR" Qty="1" Unit="шт" />
+      <Component Label="s22" Name="Микросхема TPS76328DBV" Qty="2" Unit="шт" />
+      <Component Label="s23" Name="Микросхема AS1C1M16P-70BIN" Qty="1" Unit="шт" />
+      <Component Label="s24" Name="Микросхема GL827L-0GG" Qty="1" Unit="шт" />
+      <Component Label="s25" Name="Микросхема SN74LVC1G175DBV" Qty="1" Unit="шт" />
+      <Component Label="s26" Name="Микросхема STM32F373CCT6" Qty="1" Unit="шт" />
+      <Component Label="s27" Name="Микросхема STM32L476ZET6" Qty="1" Unit="шт" />
+      <Component Label="s28" Name="Микросхема USBLC6-2SC6" Qty="1" Unit="шт" />
+      <Component Label="s29" Name="Предохранитель MF-MSMF260" Qty="1" Unit="шт" />
+      <Component Label="s30" Name="22 мкГн ±30% 0.72A 4028" Qty="2" Unit="шт" />
+      <Component Label="s31" Name="10 мкГн ±10% 15mA 0805" Qty="2" Unit="шт" />
+      <Component Label="s32" Name="39 Ом ±5% 0805" Qty="3" Unit="шт" />
+      <Component Label="s33" Name="17,4 кОм ±1% 0603" Qty="1" Unit="шт" />
+      <Component Label="s34" Name="715 Ом ±1% 0603" Qty="10" Unit="шт" />
+      <Component Label="s35" Name="4,53 кОм ±1% 0603" Qty="7" Unit="шт" />
+      <Component Label="s36" Name="22,6 кОм ±1% 0603" Qty="10" Unit="шт" />
+      <Component Label="s37" Name="47 кОм ±1% 0603" Qty="15" Unit="шт" />
+      <Component Label="s38" Name="4,7 МОм ±1% 0603" Qty="2" Unit="шт" />
+      <Component Label="s39" Name="Резисторная сборка ТС-124 4,7 кОм ±5%" Qty="4" Unit="шт" />
+      <Component Label="s40" Name="FSM4JSMA" Qty="4" Unit="шт" />
+      <Component Label="s41" Name="TC-0202" Qty="1" Unit="шт" />
+      <Component Label="s42" Name="КРА-3010QBC-D" Qty="1" Unit="шт" />
+      <Component Label="s43" Name="КРА-3010SURCK" Qty="1" Unit="шт" />
+      <Component Label="s44" Name="КРА-3010ZGC" Qty="4" Unit="шт" />
+      <Component Label="s45" Name="LL4148" Qty="1" Unit="шт" />
+      <Component Label="s46" Name="MBR0520L" Qty="5" Unit="шт" />
+      <Component Label="s47" Name="SM5819" Qty="1" Unit="шт" />
+      <Component Label="s48" Name="BC857CW" Qty="1" Unit="шт" />
+      <Component Label="s49" Name="IRLML6401TRPBF" Qty="4" Unit="шт" />
+      <Component Label="s50" Name="PMDPB30XN" Qty="3" Unit="шт" />
+      <Component Label="s51" Name="53047-0410" Qty="1" Unit="шт" />
+      <Component Label="s52" Name="53047-0610" Qty="1" Unit="шт" />
+      <Component Label="s53" Name="DM3AT-SF-PEJ" Qty="1" Unit="шт" />
+      <Component Label="s54" Name="LJE0372" Qty="1" Unit="шт" />
+      <Component Label="s55" Name="PBD127-12S" Qty="1" Unit="шт" />
+      <Component Label="s56" Name="XF2M-2015-1A" Qty="1" Unit="шт" />
+      <Component Label="s57" Name="XF2M-3515-1A" Qty="1" Unit="шт" />
+      <Component Label="s58" Name="Паяльная паста" Qty="2.5" Unit="г" />
+      <Component Label="s59" Name="Припой" Qty="3" Unit="г" />
+      <Component Label="s60" Name="Флюс" Qty="0.1" Unit="г" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="СМД монтаж" />
+      <Operation Label="o2" Description="ДИП монтаж" />
+      <Operation Label="o3" Description="Визуальный контроль" />
+      <Operation Label="o4" Description="1ая поверка" />
+      <Operation Label="o5" Description="Прошивка регистратора" />
+      <Operation Label="o6" Description="Проверка версии прошивки" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="корпус А">
+    <Components>
+      <Component Label="s1" Name="металлическая пластина" Qty="2" Unit="шт" />
+      <Component Label="s2" Name="винт М4" Qty="8" Unit="шт" />
+      <Component Label="s3" Name="провод ПВ-3" Qty="1.5" Unit="м" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Сверлить отверстия в s1 под s2" TimeMinutes="5" />
+      <Operation Label="o2" Description="Закрепить s2 в s1" TimeMinutes="10" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="корпус Б">
+    <Components>
+      <Component Label="s1" Name="пластиковая панель" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="клей эпоксидный" Qty="50" Unit="мл" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Склеить s1" TimeMinutes="5" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="Корпус МД">
+    <Components>
+      <Component Label="s1" Name="Зданяя крышка" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="Батарейные контакты" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="Лента" Qty="70" Unit="мм" />
+      <Component Label="s4" Name="Клей" Qty="1" Unit="г" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Закрепить s2" />
+      <Operation Label="o2" Description="Приклеить ленту" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="Лист1">
+    <Components />
+    <Operations />
+  </Recipe>
+  <Recipe Name="Лицевая панель">
+    <Components>
+      <Component Label="s1" Name="Винт" Qty="2" Unit="шт" />
+      <Component Label="s2" Name="Mini-USB разъем" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="Пластик" Qty="100" Unit="г" />
+      <Component Label="s4" Name="Штуцер" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="Кнопка" Qty="1" Unit="шт" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Изготовить панель" TimeMinutes="5" NonHumanMinutes="30" />
+      <Operation Label="o2" Description="Закрепить USB разъем" TimeMinutes="5" />
+      <Operation Label="o3" Description="Закрепить штуцер" TimeMinutes="5" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="МД-01М">
+    <Components>
+      <Component Label="s1" Name="Блок пневматический" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="Крышка верхняя" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="Корпус МД" Qty="1" Unit="шт" />
+      <Component Label="s4" Name="Крышка" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="Саморез 2.2х6.5" Qty="5" Unit="шт" />
+      <Component Label="s6" Name="Заглушка SD" Qty="1" Unit="шт" />
+      <Component Label="s7" Name="Этикетка верхняя для КР-03/04/05, МД-01/01М" Qty="1" Unit="шт" />
+      <Component Label="s8" Name="Этикетка гарантийная" Qty="1" Unit="шт" />
+      <Component Label="s9" Name="припой" Qty="0.5" Unit="г" />
+      <Component Label="s10" Name="флюс" Qty="0.1" Unit="г" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Корректировка даты" TimeMinutes="2" />
+      <Operation Label="o2" Description="Проверка работы Bluetooth модуля" TimeMinutes="5" />
+      <Operation Label="o3" Description="Стандартная калибровка" TimeMinutes="2" />
+      <Operation Label="o4" Description="Проверка работы элементов управления интерфейсом" TimeMinutes="2" />
+      <Operation Label="o5" Description="Проверка работы динамика" />
+      <Operation Label="o6" Description="Проверка SD карты" TimeMinutes="3" />
+      <Operation Label="o7" Description="Проверка картридера" TimeMinutes="3" />
+      <Operation Label="o8" Description="Проверка работы акселерометра" TimeMinutes="2" />
+      <Operation Label="o9" Description="Проверка отчетов АЦП на датчиках давления" TimeMinutes="5" />
+      <Operation Label="o10" Description="Тест CPU2" TimeMinutes="2" />
+      <Operation Label="o11" Description="Тест пневмосистемы" TimeMinutes="5" />
+      <Operation Label="o12" Description="Тест полосы (ДТК)" TimeMinutes="5" />
+      <Operation Label="o13" Description="Тест диктофона" TimeMinutes="2" />
+      <Operation Label="o14" Description="Тест ОЗУ" TimeMinutes="3" />
+      <Operation Label="o15" Description="Тест ДТК" TimeMinutes="3" />
+      <Operation Label="o16" Description="Приклеить заглушку для SD карты к корпусу" />
+      <Operation Label="o17" Description="Припаять контакты батарейного отсека корпуса к ячейке" />
+      <Operation Label="o18" Description="Вкрутить 5 саморезов в корпус регистратора" />
+      <Operation Label="o19" Description="Приклеить верхнюю этекетку" />
+      <Operation Label="o20" Description="Нанести маркировку методом лазерной гравировки" />
+      <Operation Label="o21" Description="Приклеить гарантийную этикетку" />
+      <Operation Label="o22" Description="Калибровка регистратора" TimeMinutes="10" />
+      <Operation Label="o23" Description="Проверка регистратора" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="печатная плата КНЯ85 в сборе">
+    <Components>
+      <Component Label="s1" Name="плата КНЯ85" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="резистор 10кОм" Qty="4" Unit="шт" />
+      <Component Label="s3" Name="конденсатор 100нФ" Qty="2" Unit="шт" />
+      <Component Label="s4" Name="филамент PLA" Qty="250" Unit="г" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Установить s2 на s1" TimeMinutes="8" />
+      <Operation Label="o2" Description="Установить s3 на s1" TimeMinutes="5" />
+      <Operation Label="o3" Description="Пропаять" TimeMinutes="15" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="плата регистратора в сборе">
+    <Components>
+      <Component Label="s1" Name="печатная плата КНЯ85" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="комплект SMD компонентов" Qty="1" Unit="компл" />
+      <Component Label="s3" Name="комплект THT компонентов" Qty="1" Unit="компл" />
+      <Component Label="s4" Name="микросхема CPU1" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="микросхема CPU2" Qty="1" Unit="шт" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="SMD монтаж s1" TimeMinutes="30" />
+      <Operation Label="o2" Description="THT монтаж s1" TimeMinutes="25" />
+      <Operation Label="o3" Description="Визуальный контроль платы" TimeMinutes="10" />
+      <Operation Label="o4" Description="Проверка пайки" TimeMinutes="15" />
+      <Operation Label="o5" Description="Прошивка CPU2 (s5)" TimeMinutes="8" />
+      <Operation Label="o6" Description="Прошивка CPU1 (s4)" TimeMinutes="8" />
+      <Operation Label="o7" Description="Проверка пайки после прошивки" TimeMinutes="10" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="прибор КР-05">
+    <Components>
+      <Component Label="s1" Name="корпус А" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="корпус Б" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="печатная плата КНЯ85 в сборе" Qty="1" Unit="шт" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Установить s3 в s1" TimeMinutes="15" />
+      <Operation Label="o2" Description="Соединить s2 с s1" TimeMinutes="20" />
+      <Operation Label="o3" Description="Проверить работоспособность" TimeMinutes="10" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="регистратор РП-1">
+    <Components>
+      <Component Label="s1" Name="плата регистратора в сборе" Qty="1" Unit="шт" />
+      <Component Label="s2" Name="Блок пневматический" Qty="1" Unit="шт" />
+      <Component Label="s3" Name="корпус регистратора" Qty="1" Unit="шт" />
+      <Component Label="s4" Name="динамик" Qty="1" Unit="шт" />
+      <Component Label="s5" Name="комплект крепежа" Qty="1" Unit="компл" />
+    </Components>
+    <Operations>
+      <Operation Label="o1" Description="Сборка регистратора: установить s1 и s2 в s3, подключить s4" TimeMinutes="25" />
+      <Operation Label="o2" Description="Калибровка регистратора" TimeMinutes="25" />
+      <Operation Label="o3" Description="Проверка регистратора" TimeMinutes="15" />
+      <Operation Label="o4" Description="Приёмо-сдаточные испытания (ПСИ)" TimeMinutes="30" />
+      <Operation Label="o5" Description="Упаковка готовой продукции" TimeMinutes="5" />
+    </Operations>
+  </Recipe>
+  <Recipe Name="Ресивер" RunQty="20">
+    <Components>
+      <Component Label="s1" Name="Смола" Qty="6" Unit="г" />
+    </Components>
+    <Operations />
+  </Recipe>
+  <Recipe Name="Стойка">
+    <Components>
+      <Component Label="s1" Name="Пластик" Qty="15" Unit="г" />
+    </Components>
+    <Operations />
+  </Recipe>
+  <Recipe Name="Стойка для КР-SPO2">
+    <Components>
+      <Component Label="s1" Name="Пластик" Qty="10" Unit="г" />
+    </Components>
+    <Operations />
+  </Recipe>
+</Recipes>
